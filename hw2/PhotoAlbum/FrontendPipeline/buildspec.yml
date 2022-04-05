@@ -1,0 +1,12 @@
+version: 0.1
+phases:
+  pre_build:
+    commands:
+      - echo 'Installing (currently no installation)...'
+  build:
+    commands:
+      - echo 'Building...'
+artifacts:
+  files:
+    - '**/*'
+
